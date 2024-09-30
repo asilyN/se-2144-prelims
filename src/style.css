@@ -1,0 +1,72 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url(3.png);
+  margin-top: 100px;
+}
+
+.calculator {
+  background-color:#002147;
+  width: 350px; /* Increased width */
+  margin: 50px auto;
+  padding: 40px; /* Increased padding */
+  outline: 10px solid #87cefa;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px 10px rgba(19, 82, 24, 0.1);
+}
+
+#display {
+  word-wrap: break-word;
+  background-color:#f0ffff;
+  width: 90%;
+  height: 50px; /* Increased height */
+  font-size: 26px; /* Slightly larger font */
+  justify-content: center;
+  border: none;
+  padding: 6px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0.5, 0, 0.5, 0.1);
+
+  /* overflow-wrap:break-word; */
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+.button {
+  width: 70px; /* Increased width */
+  height: 50px; /* Increased height */
+  font-size: 20px; /* Increased font size */
+  margin: 5px;
+  border: none;
+  border-radius: 10px;
+  background-color: #87cefa;
+  color: #fff;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #4682b4;
+}
+
+#bye, #hello {
+  width: 70px; /* Increased width */
+  height: 50px; /* Increased height */
+  font-size: 20px; /* Increased font size */
+  margin: 5px;
+  border: none;
+  border-radius: 10px;
+  background-color: #87cefa;
+  color: #fff;
+  cursor: pointer;
+}
+
+#bye:hover, #hello:hover {
+  background-color: #4682b4;
+}
+
+.highlight {
+  background-color:#92a1cf; /* Change to your preferred highlight color */
+  border: 2px solid #545aa7; /* Optional: you can customize this */
+}
