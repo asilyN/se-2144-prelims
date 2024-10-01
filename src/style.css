@@ -8,9 +8,9 @@ body {
 
 .calculator {
   background-color:#002147;
-  width: 350px; /* Increased width */
+  width: 350px;
   margin: 50px auto;
-  padding: 40px; /* Increased padding */
+  padding: 40px;
   outline: 10px solid #87cefa;
   border: 1px solid #ddd;
   border-radius: 10px;
@@ -22,30 +22,29 @@ body {
   word-wrap: break-word;
   background-color:#f0ffff;
   width: 90%;
-  height: 50px; /* Increased height */
-  font-size: 26px; /* Slightly larger font */
+  height: 50px;
+  font-size: 26px;
   justify-content: center;
   border: none;
   padding: 6px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0.5, 0, 0.5, 0.1);
-
-  /* overflow-wrap:break-word; */
 }
 
 .buttons {
   display: flex;
-  flex-wrap: wrap; /* Allows buttons to wrap if there's not enough space */
-  justify-content: space-around; /* Centers buttons with equal space between */
+  flex-wrap: wrap;
+  justify-content: space-around;
   margin-top: 20px;
+  box-shadow: 10px rgba(210, 196, 210,196)
 
 }
 
 .button {
   font-family: "Fredoka", sans-serif;
-  width: 70px; /* Increased width */
-  height: 50px; /* Increased height */
-  font-size: 20px; /* Increased font size */
+  width: 70px;
+  height: 50px;
+  font-size: 20px;
   margin: 5px;
   border: none;
   border-radius: 10px;
@@ -55,13 +54,6 @@ body {
 
 .button:hover {
   background-color: #4682b4;
-}
-
-.buttons {
-  display: flex;
-  flex-wrap: wrap; /* Allows buttons to wrap if there's not enough space */
-  justify-content: space-around; /* Centers buttons with equal space between */
-  margin-top: 20px;
 }
 
 #AC,#hello,#bye {
@@ -81,8 +73,8 @@ body {
 }
 
 .highlight {
-  background-color:#92a1cf; /* Change to your preferred highlight color */
-  border: 2px solid #545aa7; /* Optional: you can customize this */
+  background-color:#92a1cf;
+  border: 2px solid #545aa7;
 }
 #add,#equals,#decimal,#backspace,#divide,#multiply,#subtract{
   background-color: #9517f1;
