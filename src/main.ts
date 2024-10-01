@@ -9,7 +9,7 @@ const acButton = document.getElementById('AC') as HTMLButtonElement;
 let expression = '';
 let isCalculatorOn = false
 const MAX_INPUT_LENGTH = 15;
-display.style.backgroundColor = "#1d2951"
+display.style.backgroundColor = "#7972c3"
 
 
 function calculateExpression(expression: string): number | string {
@@ -104,7 +104,7 @@ helloButton.addEventListener('click', () => {
 
 byeButton.addEventListener('click', () => {
     if (isCalculatorOn) {
-        display.value = "Goodbye!!";
+        display.value = "Annyeong!!";
         display.style.backgroundColor = "#1d2951";
         display.style.color = "#ffffff";
         setTimeout(() => {
