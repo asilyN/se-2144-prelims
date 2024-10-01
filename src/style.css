@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Fredoka:wght@300..700&display=swap');
+
 body {
   font-family: Arial, sans-serif;
   background-image: url(3.png);
@@ -16,6 +18,7 @@ body {
 }
 
 #display {
+  font-family: "Fredoka", sans-serif;
   word-wrap: break-word;
   background-color:#f0ffff;
   width: 90%;
@@ -31,10 +34,15 @@ body {
 }
 
 .buttons {
+  display: flex;
+  flex-wrap: wrap; /* Allows buttons to wrap if there's not enough space */
+  justify-content: space-around; /* Centers buttons with equal space between */
   margin-top: 20px;
+
 }
 
 .button {
+  font-family: "Fredoka", sans-serif;
   width: 70px; /* Increased width */
   height: 50px; /* Increased height */
   font-size: 20px; /* Increased font size */
@@ -42,7 +50,6 @@ body {
   border: none;
   border-radius: 10px;
   background-color: #87cefa;
-  color: #fff;
   cursor: pointer;
 }
 
@@ -50,23 +57,33 @@ body {
   background-color: #4682b4;
 }
 
-#bye, #hello {
-  width: 70px; /* Increased width */
-  height: 50px; /* Increased height */
-  font-size: 20px; /* Increased font size */
-  margin: 5px;
+.buttons {
+  display: flex;
+  flex-wrap: wrap; /* Allows buttons to wrap if there's not enough space */
+  justify-content: space-around; /* Centers buttons with equal space between */
+  margin-top: 20px;
+}
+
+#AC,#hello,#bye {
+  font-family: "Fredoka", sans-serif;
+  width: 80px;
+  height: 60px;
+  margin-bottom: 25px;
+  font-size: 20px;
   border: none;
   border-radius: 10px;
-  background-color: #87cefa;
-  color: #fff;
   cursor: pointer;
 }
 
-#bye:hover, #hello:hover {
+
+#AC:hover,#hello:hover,#bye:hover {
   background-color: #4682b4;
 }
 
 .highlight {
   background-color:#92a1cf; /* Change to your preferred highlight color */
   border: 2px solid #545aa7; /* Optional: you can customize this */
+}
+#add,#equals,#decimal,#backspace,#divide,#multiply,#subtract{
+  background-color: #9517f1;
 }
