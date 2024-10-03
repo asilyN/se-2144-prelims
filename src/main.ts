@@ -77,14 +77,17 @@ buttons.forEach((button) => {
         }
     });
 });
+
 acButton.addEventListener('click', () => {
     if (!isCalculatorOn) {
         isCalculatorOn = true;
-        display.style.backgroundColor = "#f0ffff";
-    }
-    else {
-        expression = '';
-        display.value = '';
+        expression = '';  // Reset the expression
+        display.value = '0';  // Reset display to '0'
+        display.style.backgroundColor = "#f0ffff";  // Change background to active state
+        display.style.color = "#000000";  // Reset color to default
+    } else {
+        expression = '';  // Clear the expression
+        display.value = '0';  // Clear display to '0'
     }
 });
 
@@ -100,7 +103,6 @@ helloButton.addEventListener('click', () => {
     }, 1000);
 }
 });
-
 
 byeButton.addEventListener('click', () => {
     if (isCalculatorOn) {
